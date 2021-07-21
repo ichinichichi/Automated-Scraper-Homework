@@ -53,5 +53,5 @@ df.style.set_caption(f'Last Updated: {scrapeddate}')
 
 
 # save as csv
-# df.to_csv('mofa.csv', index=False, encoding='utf-8')
+df.to_csv('mofa.csv', index=False, encoding='utf-8')
 
